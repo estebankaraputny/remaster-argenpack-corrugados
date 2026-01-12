@@ -1,0 +1,118 @@
+.video-testimonials-section {
+    /* padding: 4rem 2rem; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #f8f9fa; /* Fondo gris muy suave */
+    padding: var(--space-between) 0;
+
+}
+
+.vt-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 80%;
+    background-color: var(--color-primary);
+}
+
+/* En pantallas grandes, poner lado a lado */
+@media (min-width: 900px) {
+    .vt-container {
+        flex-direction: row;
+        align-items: stretch; /* Misma altura */
+    }
+}
+
+/* --- VIDEO --- */
+.video-wrapper {
+    flex: 1;
+    width: 100%;
+    /* border-radius: 12px; */
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    min-height: 300px;
+}
+
+.responsive-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    min-height: 315px; /* Altura mínima para el video */
+}
+
+/* --- CARRUSEL --- */
+.carousel-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.testimonial-card {
+    width: 70%;
+    text-align: start;
+    padding: 0 1rem;
+    animation: fadeEffect 0.5s ease;
+    color: var(--color-white);
+}
+
+.icon-quote {
+    color: var(--color-white);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    opacity: 0.3;
+}
+
+.testimonial-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    /* color: #555; */
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    height: 10rem;
+    width: 90%;
+}
+
+.testimonial-author h4 {
+    margin: 0;
+    font-weight: 700;
+}
+
+.testimonial-author span {
+    font-size: 0.9rem;
+    /* color: #888; */
+}
+
+/* Puntos indicadores (Dots) */
+.dots {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    place-items: center;
+    gap: 8px;
+    margin-top: 1rem;
+    max-width: 70%;
+}
+
+.dot {
+    width: 90%;
+    height: .2rem;
+    background-color: #ddd;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dot.active {
+    background-color: var(--color-white);
+    transform: scale(1.1);
+}
+
+/* Animación de desvanecimiento */
+@keyframes fadeEffect {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}

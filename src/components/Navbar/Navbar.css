@@ -1,0 +1,132 @@
+.container-navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-logo-navbar{
+    z-index: 1500;
+    width: 100%;
+}
+
+.logo-navbar{
+    z-index: 1200;
+    width: 300px;
+}
+
+/* Siempre mostrar el botón hamburguesa */
+.navbar{
+    width: var(--ancho-page);
+    position: fixed;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+    z-index: 1000;
+    top: 0%;
+    padding: .3rem;
+}
+
+.content-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-toggle{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-toggle svg{
+    width: 28px;
+    height: 28px;
+    fill: var(--color-white, #fff);
+    color: var(--color-white);
+    font-weight: 400;
+    z-index: 1100;
+}
+
+/* Ocultar enlaces por defecto; se muestran con la clase .open */
+.nav-links{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-links.open{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, var(--color-tertiaty) 0%, var(--color-primary) 100%);
+    width: 100%;
+    padding: 5rem 5rem 16px 0;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    animation: openMenu 0.5s ease forwards;
+}
+
+.nav-links.closed{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, var(--color-tertiaty) 0%, var(--color-primary) 100%);
+    padding: 5rem 5rem 16px 0;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    animation: closeMenu 0.5s ease forwards;
+    pointer-events: none;
+}
+
+
+
+.nav-links.open .nav-link, .nav-links.closed .nav-link{
+    color: var(--color-white, #111);
+    padding: .5rem;
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-link{
+    color: inherit;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid var(--color-white, #111);
+    cursor: pointer;
+}
+
+
+
+@keyframes openMenu {
+    0% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes closeMenu {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+}
