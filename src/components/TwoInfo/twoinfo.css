@@ -1,0 +1,42 @@
+.container-twoInfo{
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.twoInfo{
+    max-width: var(--ancho-page);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 2rem;
+}
+
+.twoInfo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.twoInfo-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 400px;
+}
+
+.twoInfo-text h3{
+    font-size: var(--font-size-title);
+    font-weight: 300;
+    color: var(--color-secondary);
+}
+
+.twoInfo-text p{
+    font-size: var(--font-size-small);
+    font-weight: 300;
+    color: var(--color-text-light);
+}

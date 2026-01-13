@@ -1,0 +1,115 @@
+.contact-form-section {
+    width: 100%;
+    margin: var(--space-between) auto;
+}
+
+.contact-form-wrapper {
+    max-width: var(--ancho-page);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--color-white);
+    overflow: hidden;
+}
+
+.contact-info {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contact-info h3 {
+    font-size: var(--font-size-title);
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+    color: var(--color-black);
+}
+
+.contact-info p {
+    font-size: var(--font-size-small);
+    line-height: 1.6;
+    color: var(--color-text-light);
+}
+
+.contact-details {
+    margin-top: 2rem;
+}
+
+.contact-details p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+}
+
+.contact-form-container {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group-contact {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group-contact label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--color-secondary);
+    font-size: 0.9rem;
+}
+
+.form-group-contact input,
+.form-group-contact textarea {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border: 1px solid #ccc;
+    background: transparent;
+    font-size: 1rem;
+    font-family: var(--font-family);
+    transition: border-color 0.3s ease;
+}
+
+.form-group-contact input:focus,
+.form-group-contact textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+}
+
+.contact-form-submit {
+    align-self: flex-start;
+    padding: 0.8rem 2rem;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.contact-form-submit:hover {
+    background-color: var(--color-hover);
+}
+
+.status-message {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .contact-form-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .contact-form-section {
+        width: 90%;
+    }
+    .contact-info,
+    .contact-form-container {
+        padding: 2rem;
+    }
+}

@@ -4,23 +4,23 @@ import TitlePage from "../../components/TitlePage/TitlePage";
 import ImgSliderOner from "../../assets/image/sliderOne.png"
 import ImgSliderTwo from "../../assets/image/sliderTwo.png"
 import ImgSliderThree from "../../assets/image/sliderThree.png"
-import VideoSection from "../../components/VideoSection/VideoSection";
-import NewFeature from "../../components/NewFeature/NewFeature";
+import FormContact from "../../components/FormContact/FormContact";
 
 
-const Home = () => {
+const Services = () => {
     return (
-       <>
-        <Carrusel
+        <>
+            <Carrusel
             img1={ImgSliderOner}
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
-            titlePage="Soluciones integradas de packaging"
+            titlePage="Nuestros Servicios a tu medida"
             description="Soluciones en carton corrugado"
         />
+        
         <TitlePage
-            title="Acerca de Argenpack"
-            description="La evolución y adaptación permanentes, productos de clase mundial, tecnología de punta y equipos de trabajo enfocados al cliente, nos ubica como líderes en soluciones de Packaging. Gracias a nuestro enfoque estratégico de largo plazo que nos permite desarrollar productos de calidad, innovadores y sustentables, brindamos a nuestros clientes las más convenientes alternativas para el empaque, transporte, almacenaje y exhibición de productos."
+            title="Lo mejor para nuestros clientes"
+            description=""
         />
         <ThreeInfo 
             titleInfo="Nuestra mirada al futuro"
@@ -36,11 +36,11 @@ const Home = () => {
             infoThree="Fundada en 1931, SIN PAR se ha posicionado como una de las empresas argentinas referentes en soluciones tecnológicas para procesos de corte y mecanizado."
             
             />
-            <VideoSection />
-            <NewFeature />
-       </>
+            <FormContact />
         
-    )
+
+        </>
+    );
 }
 
-export default Home;
+export default Services;

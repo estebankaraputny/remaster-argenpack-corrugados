@@ -1,4 +1,4 @@
-import "./newfeature.css"
+import "./newfeature.css";
 
 const newsJson = [
     {
@@ -26,7 +26,7 @@ const newsJson = [
         description: "",
         category: "Social",
         date: "12/03/2021",
-
+        urlNew: "https://www.argenpack.com/"
     },
     {
         id: 4,
@@ -37,27 +37,27 @@ const newsJson = [
         date: "03/10/2023",
         urlNew: "https://www.instagram.com/p/CyEMJB1L-RU/?igshid=MTc4MmM1YmI2Ng%3D%3D"
     }
-]
-
+];
 
 const NewFeature = () => {
     return (
-        <section>
-            <div>
-                {newsJson.map((newsItem) => {
-                    return (
-                        <a key={newsItem.id} href={newsItem.urlNew} target="_blank" rel="noopener noreferrer">
-                                <img src={newsItem.img} alt={newsItem.title} />
-                                <div>
-                                    <p>{newsItem.title}</p>
-                                    <p>{newsItem.category}</p>
-                                </div>
-                        </a>
-                    )
-                })}
+        <section className="news-section">
+            <h2 className="news-main-title">Últimas Novedades</h2>
+            <div className="news-grid">
+                {newsJson.map((newsItem) => (
+                    <a key={newsItem.id} href={newsItem.urlNew} target="_blank" rel="noopener noreferrer" className="news-card-link">
+                        <article className="news-card">
+                            <img src={newsItem.img} alt={newsItem.title} className="news-card-image" />
+                            <div className="news-card-content">
+                                <span className="news-card-category">{newsItem.category}</span>
+                                <h3 className="news-card-title">{newsItem.title}</h3>
+                            </div>
+                        </article>
+                    </a>
+                ))}
             </div>
         </section>
-    )
+    );
 }
 
 export default NewFeature;
