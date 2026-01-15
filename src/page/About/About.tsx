@@ -8,7 +8,6 @@ import OneInfo from "../../components/OneInfo/OneInfo";
 import OneInfoImg from "../../assets/image/armandocaja.jpg";
 import TwoInfo from "../../components/TwoInfo/TwoInfo";
 import TwoInfoImg from "../../assets/image/carton.jpg"
-import "./About.css";
 import FormUnete from "../../components/FormUnete/FormUnete";
 import MisionVision from "../../components/MisionVision/MisionVision";
 
