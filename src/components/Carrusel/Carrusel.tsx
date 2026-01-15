@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
-
 import "./carrusel.css";
 
 type ImageType = string;
@@ -20,6 +19,10 @@ const Carrusel = ({ img1, img2, img3, titlePage, description }: Props): JSX.Elem
   const [isPaused, setIsPaused] = useState<boolean>(false);
   const intervalRef = useRef<number | null>(null);
 
+  
+
+
+
   const next = useCallback(() => setIndex(i => (i + 1) % images.length), [images.length]);
   const prev = useCallback(() => setIndex(i => (i - 1 + images.length) % images.length), [images.length]);
 
@@ -31,6 +34,8 @@ const Carrusel = ({ img1, img2, img3, titlePage, description }: Props): JSX.Elem
     if (intervalRef.current) { clearInterval(intervalRef.current); intervalRef.current = null; }
   }, [isPaused, next]);
 
+
+
   return (
     <div
       className="carrusel-component"
@@ -39,6 +44,7 @@ const Carrusel = ({ img1, img2, img3, titlePage, description }: Props): JSX.Elem
       aria-label={titlePage}
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
+      data-aos="fade-zoom-in"
     >
       <button className="carrusel__nav carrusel__nav--prev" aria-label="Anterior" onClick={prev} type="button">
         <FontAwesomeIcon icon={faChevronLeft} />
@@ -48,8 +54,8 @@ const Carrusel = ({ img1, img2, img3, titlePage, description }: Props): JSX.Elem
         <img className="carrusel__image" src={String(images[index])} alt={`${titlePage} — imagen ${index + 1}`} />
         <div className="carrusel__overlay">
           <div className="carrusel__caption" aria-live="polite">
-            <h1>{titlePage.toLocaleUpperCase()}</h1>
             <p>{description}</p>
+            <h1>{titlePage.toLocaleUpperCase()}</h1>
           </div>
         </div>
       </div>

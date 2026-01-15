@@ -45,7 +45,8 @@ const VideoSection = () => {
 
 
   return (
-    <section className="video-testimonials-section">
+    <section className="video-testimonials-section" data-aos="fade-up"
+     data-aos-duration="2000">
       <div className="vt-container">
         {/* Columna Izquierda: Video */}
         <div className="video-wrapper">

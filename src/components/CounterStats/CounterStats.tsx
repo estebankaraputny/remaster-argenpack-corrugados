@@ -13,9 +13,9 @@ const CounterStats: React.FC<CounterStatsProps> = ({ finalNumber, label, symbol,
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    let start = finalNumber / 2;
+    let start = 0;
     const end = finalNumber;
-    const increment = end / (duration / 10);
+    const increment = end / (duration / 5);
 
     const timer = setInterval(() => {
       start += increment;
@@ -31,7 +31,7 @@ const CounterStats: React.FC<CounterStatsProps> = ({ finalNumber, label, symbol,
   }, [finalNumber, duration]);
 
   return (
-    <div className="counter-stats-card">
+    <div className="counter-stats-card"  data-aos="zoom-out-up">
       <div className='counter-icon'>
         {icon}
       </div>

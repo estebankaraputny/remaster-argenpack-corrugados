@@ -4,7 +4,7 @@ import './MisionVision.css';
 
 const MisionVision = () => {
     return(
-        <section className="mision-vision-container">
+        <section className="mision-vision-container" data-aos="zoom-in-up">
             <div className="mision-vision-section">
                 <CardMisionVision 
                     title="Misión"

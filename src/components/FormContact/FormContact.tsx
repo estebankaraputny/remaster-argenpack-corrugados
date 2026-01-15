@@ -28,7 +28,7 @@ const FormContact = () => {
     };
 
     return (
-        <section className="contact-form-section">
+        <section className="contact-form-section" data-aos="zoom-in">
             <div className="contact-form-wrapper">
                 <div className="contact-info">
                     <h3>Contactate con Nosotros</h3>

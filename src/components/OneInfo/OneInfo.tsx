@@ -8,7 +8,7 @@ type Props = {
 
 const OneInfo = ({titleInfo, info, urlImg}: Props) => {
     return(
-        <section className="container-oneInfo">
+        <section className="container-oneInfo" data-aos="fade-right">
             <div className="oneInfo">
                 <img src={urlImg} alt="" className="oneInfo-img"/>
                 <div className="oneInfo-text">

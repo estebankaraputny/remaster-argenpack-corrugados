@@ -31,7 +31,7 @@ const FormUnete = () => {
     };
 
     return (
-        <section className="form-unete-section">
+        <section className="form-unete-section"  data-aos="fade-up">
             <div className="form-unete-wrapper">
                 <div className="form-unete-info">
                     <h2 className="form-unete-title">Forma Parte de la Familia Argenpack</h2>

@@ -78,10 +78,10 @@ const Product = () => {
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
             titlePage="Productos elegidos por nuestros clientes"
-            description="Explorá nuestro catálogo de soluciones en cartón corrugado."
+            description="RESISTENCIA • DISEÑO • PROTECCIÓN"
             />
             <div className="container-products-and-filter">
-                <div>
+                <div data-aos="fade-down-right">
                     <SearchBar initialSearchQuery={searchQuery} onSearch={setSearchQuery} />
                     <CategoryFilter
                             categories={allCategories}
@@ -89,7 +89,7 @@ const Product = () => {
                             setSelectedCategory={setSelectedCategory}
                     />
                 </div>
-                <div className="product-filters-container">
+                <div className="product-filters-container" data-aos="fade-down-left">
                     <ProductList products={paginatedProducts} onProductClick={handleProductClick} />
                     <div className="pagination-controls">
                         <button onClick={handlePrevPage} disabled={currentPage === 1}>

@@ -7,7 +7,7 @@ const NewFeature = () => {
     const featuredNews = newsData.slice(0, 3);
 
     return (
-        <section className="news-section">
+        <section className="news-section" data-aos="fade-up">
             <h2 className="news-main-title">Últimas Novedades</h2>
             <div className="newfeature-grid">
                 {featuredNews.map((newsItem) => (

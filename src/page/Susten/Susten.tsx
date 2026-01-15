@@ -20,7 +20,7 @@ const Sustentabilidad = () => {
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
             titlePage="Sustentabilidad: Nuestro Compromiso con el Planeta"
-            description="Liderando el cambio hacia un futuro más verde a través de soluciones de packaging responsable."
+            description=""
         />
         
         <TitlePage

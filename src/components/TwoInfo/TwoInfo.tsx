@@ -8,7 +8,7 @@ type Props = {
 
 const TwoInfo = ({titleInfo, info, urlImg}: Props) => {
     return(
-        <section className="container-twoInfo">
+        <section className="container-twoInfo" data-aos="fade-left">
             <div className="twoInfo">
                 <div className="twoInfo-text">
                     <h3>{titleInfo}</h3>

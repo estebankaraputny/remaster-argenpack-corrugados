@@ -7,7 +7,7 @@ type Props = {
 
 const TitlePage = ({ title, description }: Props) => {
     return (
-        <section className="section-title-page">
+        <section className="section-title-page" data-aos="fade-zoom-in">
             <div className="content-title-page">
                 <h2>{title}</h2>
                 <p>{description}</p>
