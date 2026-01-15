@@ -22,7 +22,7 @@ const Services = () => {
         
         <TitlePage
             title="Soluciones de Packaging a su Medida"
-            description="En la era del e-commerce y la creciente demanda por soluciones ecológicas, el cartón corrugado se posiciona como el material esencial para el packaging del futuro. Ofrecemos soluciones innovadoras que no solo cumplen con los requisitos de protección y logística, sino que también realzan su estrategia de marketing y branding, impulsando la conexión con sus clientes."
+            description="El aliado esencial para el e-commerce y la sustentabilidad. Nuestras soluciones en cartón corrugado protegen su producto y potencian su branding, transformando la logística en una verdadera experiencia de marca."
         />
         <section className="container-process">
             <div className="process-send">
