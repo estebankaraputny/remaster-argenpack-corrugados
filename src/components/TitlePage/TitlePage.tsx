@@ -1,4 +1,4 @@
-import "./titlePage.css";
+import "./TitlePage.css";
 
 type Props = {
     title: string,

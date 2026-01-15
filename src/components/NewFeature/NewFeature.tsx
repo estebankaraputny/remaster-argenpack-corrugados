@@ -1,6 +1,6 @@
 import { newsData } from '../../data/news';
 import NewsCard from '../News/NewsCard';
-import './newfeature.css';
+import './NewFeature.css';
 
 const NewFeature = () => {
     // Take only the first 4 news items for the feature section

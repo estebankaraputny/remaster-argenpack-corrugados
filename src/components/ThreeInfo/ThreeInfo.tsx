@@ -1,4 +1,4 @@
-import "./threeinfo.css"
+import "./ThreeInfo.css"
 import Img1 from "@/assets/image/threeinfoone.png"
 import Img2 from "@/assets/image/threeinfotwo.png"
 

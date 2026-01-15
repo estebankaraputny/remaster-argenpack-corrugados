@@ -1,4 +1,4 @@
-import "./twoinfo.css"
+import "./TwoInfo.css"
 
 type Props = {
     titleInfo: string,
