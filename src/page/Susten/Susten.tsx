@@ -2,7 +2,7 @@ import Carrusel from '../../components/Carrusel/Carrusel';
 import CounterStats from '../../components/CounterStats/CounterStats';
 import TitlePage from "../../components/TitlePage/TitlePage";
 import ImgSliderOner from "../../assets/image/aceite.jpg"
-import ImgSliderTwo from "../../assets/image/pexels-elevate-1267332.jpg"
+import ImgSliderTwo from "../../assets/image/armandocaja.jpg"
 import ImgSliderThree from "../../assets/image/pilacartones.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRecycle, faBoxesStacked, faArrowTrendUp, faLeaf} from '@fortawesome/free-solid-svg-icons';

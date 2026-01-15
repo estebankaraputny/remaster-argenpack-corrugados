@@ -1,8 +1,8 @@
 import Carrusel from "../../components/Carrusel/Carrusel";
 import ThreeInfo from "../../components/ThreeInfo/ThreeInfo";
 import TitlePage from "../../components/TitlePage/TitlePage";
-import ImgSliderOner from "../../assets/image/sliderOne.png"
-import ImgSliderTwo from "../../assets/image/sliderTwo.png"
+import ImgSliderOne from "../../assets/image/sliderOne.jpg"
+import ImgSliderTwo from "../../assets/image/sliderTwo.jpg"
 import ImgSliderThree from "../../assets/image/fabrica1.jpg"
 import VideoSection from "../../components/VideoSection/VideoSection";
 import NewFeature from "../../components/NewFeature/NewFeature";
@@ -12,7 +12,7 @@ const Home = () => {
     return (
        <>
         <Carrusel
-            img1={ImgSliderOner}
+            img1={ImgSliderOne}
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
             titlePage="Somos Argenpack Vanguardia en Cartón Corrugado"
