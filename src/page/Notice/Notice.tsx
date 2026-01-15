@@ -6,8 +6,8 @@ import TitlePage from "../../components/TitlePage/TitlePage";
 import ImgSliderOner from "../../assets/image/fabricagrupo.jpg"
 import ImgSliderTwo from "../../assets/image/medioambiente1.jpg"
 import ImgSliderThree from "../../assets/image/argennoche.png"
-import './Notice.css';
 import FormContact from '../../components/FormContact/FormContact';
+import './Notice.css';
 
 const NEWS_PER_PAGE = 6;
 
