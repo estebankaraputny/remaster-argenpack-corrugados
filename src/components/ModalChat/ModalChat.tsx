@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCommentDots, faXmark, faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faWhatsapp, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import "./ModalChat.css";
 

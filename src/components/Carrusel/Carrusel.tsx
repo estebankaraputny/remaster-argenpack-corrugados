@@ -13,7 +13,7 @@ type Props = {
   description: string;
 };
 
-const Carrusel = ({ img1, img2, img3, titlePage, description }: Props): JSX.Element => {
+const Carrusel = ({ img1, img2, img3, titlePage, description }: Props) => {
   const images = useMemo(() => [img1, img2, img3], [img1, img2, img3]);
   const [index, setIndex] = useState<number>(0);
   const [isPaused, setIsPaused] = useState<boolean>(false);

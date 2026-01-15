@@ -1,19 +1,21 @@
 import { useState, useEffect } from "react";
-import ImgSliderOner from "../../assets/image/pilacartones.png"
-import ImgSliderTwo from "../../assets/image/cajasproduccion.png"
-import ImgSliderThree from "../../assets/image/materialescarton.jpg"
+import ImgSliderOner from "../../assets/image/pilacartones.png";
+import ImgSliderTwo from "../../assets/image/cajasproduccion.png";
+import ImgSliderThree from "../../assets/image/materialescarton.jpg";
 import Carrusel from "../../components/Carrusel/Carrusel";
 import CategoryFilter from "../../components/ProductSection/CategoryFilter";
 import SearchBar from "../../components/ProductSection/SearchBar";
 import ProductList from "../../components/ProductSection/ProductList";
 import ProductModal from "../../components/ProductSection/ProductModal";
-import { type Product } from "../../components/ProductSection/types";
+
+import { type Product as ProductType } from "../../components/ProductSection/types";
+
 import ThreeInfo from "../../components/ThreeInfo/ThreeInfo";
 import "./Product.css";
 import FormContact from "../../components/FormContact/FormContact";
 
-// Placeholder product data (Igual que antes)
-const allProducts: Product[] = [
+// Usamos ProductType en lugar de Product
+const allProducts: ProductType[] = [
     { id: 1, name: "Caja de Cartón Simple", category: "Cajas", image: "https://www.argenpack.com/files/b0adde31c4d1b033db1401c2b21c38b2.png" },
     { id: 2, name: "Caja de Cartón Doble", category: "Cajas", image: "https://www.argenpack.com/files/c59387f044365b96558c45c1e4ae39e9.png" },
     { id: 3, name: "Separador de Cartón", category: "Accesorios", image: "https://www.argenpack.com/files/c59387f044365b96558c45c1e4ae39e9.png" },
@@ -31,7 +33,10 @@ const PRODUCTS_PER_PAGE = 6;
 const Product = () => {
     const [searchQuery, setSearchQuery] = useState("");
     const [selectedCategory, setSelectedCategory] = useState("Todas");
-    const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+    
+
+    const [selectedProduct, setSelectedProduct] = useState<ProductType | null>(null);
+    
     const [currentPage, setCurrentPage] = useState(1);
 
     const filteredProducts = allProducts.filter(product => {
@@ -47,7 +52,8 @@ const Product = () => {
 
     const totalPages = Math.ceil(filteredProducts.length / PRODUCTS_PER_PAGE);
 
-    const handleProductClick = (product: Product) => {
+    
+    const handleProductClick = (product: ProductType) => {
         setSelectedProduct(product);
     };
 
@@ -74,19 +80,19 @@ const Product = () => {
     return (
         <section className="product-page-section">
             <Carrusel
-            img1={ImgSliderOner}
-            img2={ImgSliderTwo}
-            img3={ImgSliderThree}
-            titlePage="Productos elegidos por nuestros clientes"
-            description="RESISTENCIA • DISEÑO • PROTECCIÓN"
+                img1={ImgSliderOner}
+                img2={ImgSliderTwo}
+                img3={ImgSliderThree}
+                titlePage="Productos elegidos por nuestros clientes"
+                description="RESISTENCIA • DISEÑO • PROTECCIÓN"
             />
             <div className="container-products-and-filter">
                 <div data-aos="fade-down-right">
                     <SearchBar initialSearchQuery={searchQuery} onSearch={setSearchQuery} />
                     <CategoryFilter
-                            categories={allCategories}
-                            selectedCategory={selectedCategory}
-                            setSelectedCategory={setSelectedCategory}
+                        categories={allCategories}
+                        selectedCategory={selectedCategory}
+                        setSelectedCategory={setSelectedCategory}
                     />
                 </div>
                 <div className="product-filters-container" data-aos="fade-down-left">
@@ -106,20 +112,19 @@ const Product = () => {
                     )}
                 </div>
             </div>
-            
-            <ThreeInfo 
-            titleInfo="Nuestra mirada al futuro"
-            descriptionInfo="Impulsamos el cambio cultural en organizaciones y personas para mejorar la competitividad."
-            
-            titleInfoOne= "Sistema de Gestión Integrado"
-            infoOne= "Trabajamos con un Sistema Integrado de Gestión que incorpora el cuidado del medio ambiente y el entorno social como parte fundamental de nuestro modelo de negocio."
-            
-            titleInfoTwo= "Sustentabilidad"
-            infoTwo="Elaboramos reportes de sustentabilidad que dan cuenta de nuestro desempeño económico, social y ambiental."
-            
-            titleInfoThree="Trayectoria"
-            infoThree="Fundada en 1931, SIN PAR se ha posicionado como una de las empresas argentinas referentes en soluciones tecnológicas para procesos de corte y mecanizado."
-            
+
+            <ThreeInfo
+                titleInfo="Nuestra mirada al futuro"
+                descriptionInfo="Impulsamos el cambio cultural en organizaciones y personas para mejorar la competitividad."
+
+                titleInfoOne="Sistema de Gestión Integrado"
+                infoOne="Trabajamos con un Sistema Integrado de Gestión que incorpora el cuidado del medio ambiente y el entorno social como parte fundamental de nuestro modelo de negocio."
+
+                titleInfoTwo="Sustentabilidad"
+                infoTwo="Elaboramos reportes de sustentabilidad que dan cuenta de nuestro desempeño económico, social y ambiental."
+
+                titleInfoThree="Trayectoria"
+                infoThree="Fundada en 1931, SIN PAR se ha posicionado como una de las empresas argentinas referentes en soluciones tecnológicas para procesos de corte y mecanizado."
             />
             <FormContact />
         </section>
