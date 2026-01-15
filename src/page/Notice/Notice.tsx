@@ -3,9 +3,9 @@ import NewsList from '../../components/News/NewsList';
 import { newsData } from '../../data/news';
 import Carrusel from "../../components/Carrusel/Carrusel";
 import TitlePage from "../../components/TitlePage/TitlePage";
-import ImgSliderOner from "../../assets/image/sliderOne.png"
-import ImgSliderTwo from "../../assets/image/sliderTwo.png"
-import ImgSliderThree from "../../assets/image/sliderThree.png"
+import ImgSliderOner from "../../assets/image/fabricagrupo.jpg"
+import ImgSliderTwo from "../../assets/image/medioambiente1.jpg"
+import ImgSliderThree from "../../assets/image/argennoche.png"
 import './notice.css';
 import FormContact from '../../components/FormContact/FormContact';
 
