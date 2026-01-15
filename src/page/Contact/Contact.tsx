@@ -14,7 +14,7 @@ const Contact = () => {
                     img2={ImgSliderTwo}
                     img3={ImgSliderThree}
                     titlePage="Contactanos, Tu packaging ideal comienza acá"
-                    description="Expertos listos para ayudarte"
+                    description="CERCANÍA • ASESORÍA • RESPUESTA"
                 />
                 <TitlePage
                     title="Contacto"

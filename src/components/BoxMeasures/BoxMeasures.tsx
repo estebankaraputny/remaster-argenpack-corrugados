@@ -26,7 +26,7 @@ const BoxMeasures = () => {
     const [depth, setDepth] = useState(15);
 
     return (
-        <section className="box-measures-section">
+        <section className="box-measures-section" data-aos="zoom-in-left">
             <h2 className="box-measures-title">Visualizador de Cajas 3D</h2>
             <div className="box-measures-wrapper">
                 <div className="box-measures-controls">

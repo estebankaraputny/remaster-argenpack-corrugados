@@ -7,6 +7,7 @@ import ImgSliderOner from "../../assets/image/sliderOne.png"
 import ImgSliderTwo from "../../assets/image/sliderTwo.png"
 import ImgSliderThree from "../../assets/image/sliderThree.png"
 import './notice.css';
+import FormContact from '../../components/FormContact/FormContact';
 
 const NEWS_PER_PAGE = 6;
 
@@ -39,11 +40,11 @@ const Notice = () => {
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
             titlePage="Enterate de nuestras novedades"
-            description="Entender nuestro crecimiento tambien es compartir cada paso con vos. Conoce más sobre nuestro proyecto en las siguientes notas"
+            description="ACTUALIDAD • TENDENCIAS • MERCADO"
             />
             <TitlePage
             title="Novedades"
-            description="La evolución y adaptación permanentes, productos de clase mundial, tecnología de punta y equipos de trabajo enfocados al cliente, nos ubica como líderes en soluciones de Packaging. Gracias a nuestro enfoque estratégico de largo plazo que nos permite desarrollar productos de calidad, innovadores y sustentables, brindamos a nuestros clientes las más convenientes alternativas para el empaque, transporte, almacenaje y exhibición de productos."
+            description="Argenpack en Movimiento. Nuestra búsqueda de la excelencia es constante. Aquí encontrará las últimas actualizaciones sobre nuestras inversiones en tecnología, participación en eventos y mejoras de procesos. Un recorrido por los hitos que nos permiten seguir elevando el estándar de calidad para nuestros clientes."
             />
             <div className='content-noticias'>
                 <NewsList news={paginatedNews} />
@@ -57,6 +58,7 @@ const Notice = () => {
                     </button>
                 </div>
             </div>
+            <FormContact />
         </>
         
     );

@@ -21,19 +21,21 @@ const Plantas = () => {
 
     return (
         <>
-            <p className='name-ubi'>Casa Central - Planta Parque Industrial Plátanos: Avenida Nicolas Milazzo 3251, Berazategui.</p>
-            <div className="plantas-container" onClick={handleMapClick}>
-                <MapContainer center={position} zoom={16} scrollWheelZoom={true} className="map-container">
-                    <TileLayer
-                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                    />
-                    <Marker position={position}>
-                        <Popup>
-                            Argenpack Corrugados. <br /> Click para abrir en Google Maps.
-                        </Popup>
-                    </Marker>
-                </MapContainer>
+            <div data-aos="zoom-in-up">
+                <p className='name-ubi'>Casa Central - Planta Parque Industrial Plátanos: Avenida Nicolas Milazzo 3251, Berazategui.</p>
+                <div className="plantas-container" onClick={handleMapClick}>
+                    <MapContainer center={position} zoom={16} scrollWheelZoom={true} className="map-container">
+                        <TileLayer
+                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                        />
+                        <Marker position={position}>
+                            <Popup>
+                                Argenpack Corrugados. <br /> Click para abrir en Google Maps.
+                            </Popup>
+                        </Marker>
+                    </MapContainer>
+                </div>
             </div>
         </>
     );

@@ -16,7 +16,7 @@ const Home = () => {
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
             titlePage="Somos Argenpack Vanguardia en Cartón Corrugado"
-            description="Soluciones que impulsan tu negocio."
+            description="CALIDAD • LIDERAZGO • SOLUCIONES"
         />
         <TitlePage
             title="Innovación en Packaging de Cartón Corrugado"

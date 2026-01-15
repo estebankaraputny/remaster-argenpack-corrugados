@@ -10,6 +10,7 @@ import FormContact from "../../components/FormContact/FormContact";
 import "./Services.css"            
 
 const Services = () => {
+
     return (
         <>
             <Carrusel
@@ -17,14 +18,14 @@ const Services = () => {
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
             titlePage="Servicios que Impulsan su Negocio"
-            description="Expertos en cartón corrugado, transformamos sus necesidades en embalajes eficientes y sostenibles."
-        />
+            description="LOGÍSTICA • DESARROLLO • GESTIÓN"
+            />
         
         <TitlePage
             title="Soluciones de Packaging a su Medida"
             description="El aliado esencial para el e-commerce y la sustentabilidad. Nuestras soluciones en cartón corrugado protegen su producto y potencian su branding, transformando la logística en una verdadera experiencia de marca."
         />
-        <section className="container-process">
+        <section className="container-process" data-aos="zoom-in">
             <div className="process-send">
                 <h3 className="process-title">Nos distinguimos por brindar soluciones de packaging integral, con un firme compromiso en el servicio al cliente, la innovación constante, la eficiencia operativa y una dedicación inquebrantable a la preservación del medio ambiente.</h3>
                 <img src={ImgProcess} alt="" className="process-img" />

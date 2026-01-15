@@ -18,12 +18,12 @@ const ThreeInfo = ({ titleInfoOne, titleInfoTwo, titleInfoThree, infoOne, infoTw
         <section className="section-three-info">
             <div className="content-three-info">
                 <div className="img-three-one">
-                    <img src={Img1} alt="" />
+                    <img src={Img1} alt="" data-aos="fade-down" />
                 </div>
-                <div className="img-three-two">
+                <div className="img-three-two" data-aos="fade-up">
                     <img src={Img2} alt="" />
                 </div>
-                <div className="three-info-row-one">
+                <div className="three-info-row-one" data-aos="zoom-in-left">
                     <div className="title-three-info">
                         <h2>
                             {titleInfo}

@@ -9,7 +9,7 @@ interface NewsListProps {
 
 const NewsList: React.FC<NewsListProps> = ({ news }) => {
   return (
-    <div className="news-grid">
+    <div className="news-grid" data-aos="zoom-in">
       {news.map((newsItem) => (
         <NewsCard key={newsItem.id} newsItem={newsItem} />
       ))}

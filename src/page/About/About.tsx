@@ -20,8 +20,8 @@ const About = () => {
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
             titlePage="Argenpack, Pioneros en Soluciones de Packaging Sostenible"
-            description="Liderando la industria del cartón corrugado con innovación y responsabilidad."
-        />
+            description="TRAYECTORIA • COMPROMISO • EVOLUCIÓN"
+            />
         <TitlePage
             title="Nuestra Historia y Compromiso con el Futuro"
             description="Somos Argenpack, Empresa argentina con visión global, líder en soluciones integrales de cartón corrugado. Impulsamos la innovación y la sostenibilidad en cada envase, construyendo alianzas duraderas basadas en la excelencia, la calidad certificada y el compromiso ambiental."

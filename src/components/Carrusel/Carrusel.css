@@ -58,7 +58,8 @@
 .carrusel__caption p {
     margin: 0;
     opacity: .95;
-    font-size: var(--font-size-subtitle);
+    font-size: var(--font-size-text);
+    width: 50%;
 }
 
 /* nav buttons */
