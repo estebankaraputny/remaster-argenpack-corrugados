@@ -1,4 +1,4 @@
-import "./footer.css";
+import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faFacebookF, faInstagram, faLinkedinIn } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope, faMapMarkerAlt, faPhone, faCertificate} from "@fortawesome/free-solid-svg-icons";
