@@ -11,7 +11,7 @@ const SearchBar = ({ initialSearchQuery, onSearch }: SearchBarProps) => {
     useEffect(() => {
         const timer = setTimeout(() => {
             onSearch(inputValue);
-        }, 300); // 300ms de retardo
+        }, 300); 
 
         return () => {
             clearTimeout(timer);

@@ -50,7 +50,7 @@ const ProductsPage = () => {
             </div>
             
             <div className="product-filters-container">
-                <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+                <SearchBar initialSearchQuery={searchQuery} onSearch={setSearchQuery} />
                 <CategoryFilter
                     categories={allCategories}
                     selectedCategory={selectedCategory}
