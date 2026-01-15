@@ -122,6 +122,7 @@
         padding: 2rem;
     }
     .form-unete-container {
-        padding: 2rem;
+        padding: 0;
+        gap: 0.5rem;
     }
 }

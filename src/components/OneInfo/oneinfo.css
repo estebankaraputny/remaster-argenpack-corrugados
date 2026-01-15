@@ -41,3 +41,14 @@
     font-weight: 300;
     color: var(--color-text-light);
 }
+
+@media (max-width: 768px) {
+    .oneInfo {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .oneInfo img{
+        border-radius: var(--border-radius);
+    }
+}

@@ -7,6 +7,7 @@ interface CategoryFilterProps {
 const CategoryFilter = ({ categories, selectedCategory, setSelectedCategory }: CategoryFilterProps) => {
     return (
         <div className="category-filter-container">
+            <h3>Categorias</h3>
             {categories.map(category => (
                 <button
                     key={category}

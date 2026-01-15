@@ -6,6 +6,7 @@ import Product from './page/Product/Product';
 import Services from './page/Services/Services';
 import Sustentabilidad from './page/Susten/Susten';
 import Notice from './page/Notice/Notice';
+import NoticeDetail from './page/Notice/NoticeDetail';
 import Contact from './page/Contact/Contact';
 import Unete from './page/Unete/Unete';
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/servicios" element={<Services />} />
         <Route path="/sustentabilidad" element={<Sustentabilidad />} />
         <Route path="/noticias" element={<Notice />} />
+        <Route path="/noticias/:id" element={<NoticeDetail />} />
         <Route path="/contacto" element={<Contact />} />
         <Route path="/unete-a-nosotros" element={<Unete />} />
       </Routes>

@@ -1,6 +1,6 @@
 .contact-form-section {
     width: 100%;
-    margin: var(--space-between) auto;
+    /* margin: var(--space-between) auto; */
 }
 
 .contact-form-wrapper {
@@ -70,6 +70,7 @@
     font-size: 1rem;
     font-family: var(--font-family);
     transition: border-color 0.3s ease;
+    resize: none;
 }
 
 .form-group-contact input:focus,

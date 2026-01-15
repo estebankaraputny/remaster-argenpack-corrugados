@@ -13,27 +13,27 @@ const Story = () => {
             img1={ImgSliderOner}
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
-            titlePage="Nuestra Historia, una empresa con recorrido"
-            description="Soluciones en carton corrugado"
+            titlePage="Argenpack: Más de un Siglo de Innovación en Packaging"
+            description="Desde nuestros orígenes, construyendo el futuro del embalaje con visión y compromiso."
         />
         
         <TitlePage
-            title="Lo mejor para nuestros clientes"
-            description=""
+            title="Nuestra Trayectoria: Un Legado de Excelencia y Adaptación"
+            description="La historia de Argenpack es la de una constante evolución, marcada por la capacidad de adaptación y la búsqueda incesante de la excelencia. A lo largo de los años, hemos crecido de la mano con la industria, transformando el cartón corrugado en soluciones de packaging de clase mundial. Nuestra trayectoria es un testimonio de la visión estratégica, la inversión en tecnología de punta y el compromiso de un equipo de trabajo enfocado en las necesidades de nuestros clientes y el cuidado del medio ambiente."
         />
         
         <ThreeInfo 
-            titleInfo="Nuestra mirada al futuro"
-            descriptionInfo="Impulsamos el cambio cultural en organizaciones y personas para mejorar la competitividad."
+            titleInfo="Hitos que Definen Nuestro Camino"
+            descriptionInfo="Desde nuestra fundación, hemos marcado hitos importantes en la industria del packaging, consolidando nuestro liderazgo a través de la innovación y la responsabilidad."
             
-            titleInfoOne= "Sistema de Gestión Integrado"
-            infoOne= "Trabajamos con un Sistema Integrado de Gestión que incorpora el cuidado del medio ambiente y el entorno social como parte fundamental de nuestro modelo de negocio."
+            titleInfoOne= "Pioneros en Soluciones Sostenibles"
+            infoOne= "Desde los primeros días, hemos integrado prácticas de gestión que priorizan el cuidado del medio ambiente y el entorno social. Hoy, nuestro Sistema Integrado de Gestión es un referente en la industria, impulsando la economía circular y el uso eficiente de recursos."
             
-            titleInfoTwo= "Sustentabilidad"
-            infoTwo="Elaboramos reportes de sustentabilidad que dan cuenta de nuestro desempeño económico, social y ambiental."
+            titleInfoTwo= "Evolución Tecnológica y Expansión"
+            infoTwo="Nuestra constante inversión en maquinaria de última generación y la expansión de nuestras capacidades de producción nos han permitido ofrecer una gama cada vez más amplia de soluciones innovadoras. Hemos pasado de ser proveedores locales a un actor clave con presencia regional, adaptándonos a las demandas de un mercado globalizado."
             
-            titleInfoThree="Trayectoria"
-            infoThree="Fundada en 1931, SIN PAR se ha posicionado como una de las empresas argentinas referentes en soluciones tecnológicas para procesos de corte y mecanizado."
+            titleInfoThree="Alianzas Estratégicas y Reconocimiento"
+            infoThree="A lo largo de nuestra historia, hemos forjado alianzas estratégicas con líderes tecnológicos y organizaciones de impacto. Este camino nos ha posicionado como referentes en soluciones tecnológicas para procesos de corte, mecanizado y, fundamentalmente, en el desarrollo de embalajes que responden a los desafíos del siglo XXI."
             
             />
 

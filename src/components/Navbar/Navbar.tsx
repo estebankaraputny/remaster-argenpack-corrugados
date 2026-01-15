@@ -26,9 +26,9 @@ const Navbar = () => {
     }, []);
 
     return (
-        <header className={`container-navbar ${scrolled ? 'scrolled' : ''}`}>
-            <div className="navbar-content">
-                <nav className="navbar">
+        <header className="header">
+            <div className={`navbar-content ${scrolled ? 'scrolled' : ''}`}>
+                <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
                     <div className="content-logo-navbar">
                         <Link to="/"><img src={Logo} className="logo-navbar" alt="Logo Argenpack Corrugados" /></Link>
                     </div>
@@ -47,17 +47,17 @@ const Navbar = () => {
                                 )}
                             </button>
                         </div>
-                        <ul className={`nav-links ${open ? 'open' : 'closed'}`}>
-                            <li><Link to="/" className="nav-link" onClick={() => setOpen(false)}>Inicio</Link></li>
-                            <li><Link to="/nosotros" className="nav-link" onClick={() => setOpen(false)}>Nosotros</Link></li>
-                            <li><Link to="/productos" className="nav-link" onClick={() => setOpen(false)}>Productos</Link></li>
-                            <li><Link to="/servicios" className="nav-link" onClick={() => setOpen(false)}>Servicios</Link></li>
-                            <li><Link to="/sustentabilidad" className="nav-link" onClick={() => setOpen(false)}>Sustentabilidad</Link></li>
-                            <li><Link to="/noticias" className="nav-link" onClick={() => setOpen(false)}>Noticias</Link></li>
-                            <li><Link to="/unete-a-nosotros" className="nav-link" onClick={() => setOpen(false)}>Unete a Nosotros</Link></li>
-                            <li><Link to="/visualizador" className="nav-link" onClick={() => setOpen(false)}>Visualizador 3D</Link></li>
-                            <li><Link to="/contacto" className="nav-link" onClick={() => setOpen(false)}>Contacto</Link></li>
-                        </ul>
+                        <div className={`content-nav-links ${open ? 'open' : 'closed'}`}>
+                            <ul className="nav-links">
+                                <li><Link to="/" className="nav-link" onClick={() => setOpen(false)}>Inicio</Link></li>
+                                <li><Link to="/nosotros" className="nav-link" onClick={() => setOpen(false)}>Nosotros</Link></li>
+                                <li><Link to="/productos" className="nav-link" onClick={() => setOpen(false)}>Productos</Link></li>
+                                <li><Link to="/servicios" className="nav-link" onClick={() => setOpen(false)}>Servicios</Link></li>
+                                <li><Link to="/sustentabilidad" className="nav-link" onClick={() => setOpen(false)}>Sustentabilidad</Link></li>
+                                <li><Link to="/noticias" className="nav-link" onClick={() => setOpen(false)}>Noticias</Link></li>
+                                <li><Link to="/contacto" className="nav-link" onClick={() => setOpen(false)}>Contacto</Link></li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
             </div>

@@ -48,8 +48,8 @@ const Carrusel = ({ img1, img2, img3, titlePage, description }: Props): JSX.Elem
         <img className="carrusel__image" src={String(images[index])} alt={`${titlePage} — imagen ${index + 1}`} />
         <div className="carrusel__overlay">
           <div className="carrusel__caption" aria-live="polite">
-            <p>{description}</p>
             <h1>{titlePage.toLocaleUpperCase()}</h1>
+            <p>{description}</p>
           </div>
         </div>
       </div>

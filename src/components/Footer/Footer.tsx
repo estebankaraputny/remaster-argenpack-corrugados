@@ -1,7 +1,9 @@
 import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faFacebookF, faInstagram, faLinkedinIn } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope, faMapMarkerAlt, faPhone, faCertificate } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faMapMarkerAlt, faPhone, faCertificate} from "@fortawesome/free-solid-svg-icons";
+import {faFacebookF, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -13,7 +15,9 @@ const Footer = () => {
                     <p>Queremos conocer sus proyectos. Contáctenos y le brindaremos más información sobre nuestros productos y soluciones.</p>
                 </div>
                 <div className="footer-contacto-button">
-                    <a href="">Contactar</a>
+                    <Link to="/contacto" className="button-contactar">
+                        Contactar
+                    </Link>
                 </div>
             </div>
         </div>
@@ -27,15 +31,21 @@ const Footer = () => {
             </p>
             <div className="footer-column contact-column">
             <h4>Contacto</h4>
-            <ul className="contact-info">
+            <ul className="contact-info-footer">
                 <li><FontAwesomeIcon icon={faMapMarkerAlt} /> Parque Industrial, Berazategui</li>
                 <li><FontAwesomeIcon icon={faPhone} /> +54 11 4200-0000</li>
                 <li><FontAwesomeIcon icon={faEnvelope} /> info@argenpack.com</li>
             </ul>
             <div className="social-links">
-                <a href="#" className="social-link" aria-label="Facebook">F</a>
-                <a href="#" className="social-link" aria-label="Instagram">Ig</a>
-                <a href="#" className="social-link" aria-label="LinkedIn">In</a>
+                <Link to="#" className="social-link" aria-label="Facebook" target="_black">
+                    <FontAwesomeIcon icon={faFacebookF} />
+                </Link>
+                <Link to="https://www.instagram.com/argenpackcorrugados/" className="social-link" aria-label="Instagram" target="_black">
+                    <FontAwesomeIcon icon={faInstagram} />
+                </Link>
+                <Link to="https://www.linkedin.com/company/argenpack-corrugados-s-a-/posts/?feedView=all" className="social-link" aria-label="LinkedIn" target="_black">
+                   <FontAwesomeIcon icon={faLinkedinIn} />
+                </Link>
             </div>
         </div>
         </div>
@@ -44,11 +54,36 @@ const Footer = () => {
         <div className="footer-column nav-column">
             <h4>Accesos rápidos</h4>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Sustentabilidad</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li>
+                    <Link to="/" className="nav-link-footer">
+                        Inicio
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/nosotros" className="nav-link-footer">
+                        Nosotros
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/productos" className="nav-link-footer">
+                        Productos
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/servicios" className="nav-link-footer">
+                        Servicios
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/sustentabilidad" className="nav-link-footer">
+                        Sustentabilidad
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/noticias" className="nav-link-footer">
+                        Noticias
+                    </Link>
+                </li>
             </ul>
         </div>
 

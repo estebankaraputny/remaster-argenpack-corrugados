@@ -1,0 +1,30 @@
+.container-process{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-between);
+}
+
+.process-send{
+    max-width: var(--ancho-page);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.process-title{
+    font-size: var(--font-size-subtitle);
+    /* font-weight: 300; */
+    color: var(--color-primary);
+    text-align: center
+}
+
+.process-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

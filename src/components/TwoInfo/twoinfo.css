@@ -40,3 +40,18 @@
     font-weight: 300;
     color: var(--color-text-light);
 }
+
+@media (max-width: 768px) {
+    .twoInfo {
+        grid-template-columns: 1fr;
+    }
+
+    .twoInfo {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .twoInfo img{
+        border-radius: var(--border-radius);
+    }
+}

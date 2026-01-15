@@ -6,11 +6,9 @@ import ImgSliderTwo from "../../assets/image/sliderTwo.png"
 import ImgSliderThree from "../../assets/image/sliderThree.png"
 import OneInfo from "../../components/OneInfo/OneInfo";
 import TwoInfo from "../../components/TwoInfo/TwoInfo";
-import ImgProcess from "../../assets/image/process.png"
 import "./about.css";
 import FormUnete from "../../components/FormUnete/FormUnete";
-import BoxMeasures from "../../components/BoxMeasures/BoxMeasures";
-
+import MisionVision from "../../components/MisionVision/MisionVision";
 
 const About = () => {
     return (
@@ -19,45 +17,39 @@ const About = () => {
             img1={ImgSliderOner}
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
-            titlePage="Sobre Nosotros"
-            description=""
+            titlePage="Argenpack: Pioneros en Soluciones de Packaging Sostenible"
+            description="Liderando la industria del cartón corrugado con innovación y responsabilidad."
         />
         <TitlePage
-            title="¿Quiénes Somos?"
-            description="Somos una empresa Argentina con mirada global que brinda soluciones integrales en Packaging. Construimos relaciones de largo plazo con nuestros clientes y proveedores, enfocándonos en el bienestar de las personas y el cuidado del medio ambiente. Desde nuestras 17 plantas de producción en la región, abastecemos a más de 3000 clientes con nuestros envases corrugados, envases flexibles, bolsas multipliego y papeles."
+            title="Nuestra Historia y Compromiso con el Futuro"
+            description="Somos Argenpack, una empresa argentina con visión global, dedicada a ofrecer soluciones integrales en packaging de cartón corrugado. Desde nuestras modernas instalaciones, impulsamos la innovación, la sostenibilidad y la excelencia en cada producto. Construimos relaciones sólidas y duraderas con clientes y proveedores, con un firme compromiso con el bienestar de las personas y la protección del medio ambiente. Nuestra red de producción abastece a una vasta clientela, brindando envases corrugados que cumplen con los más altos estándares de calidad y eficiencia."
         />
         <OneInfo
-            titleInfo="Un aliado estratégico para su negocio"
-            info="Tenemos un fuerte compromiso con cada parte de la cadena productiva y atendemos permanentemente a los cambios de la industria para satisfacer las necesidades de nuestros clientes, proveedores, colaboradores y del medio ambiente."
+            titleInfo="Un Aliado Estratégico del Embalaje"
+            info="En Argenpack, nos dedicamos a comprender las dinámicas cambiantes de la industria para anticipar y satisfacer las necesidades de embalaje de nuestros clientes. Nuestro compromiso se extiende a cada eslabón de la cadena productiva, asegurando soluciones que no solo protegen sus productos, sino que también optimizan su logística y refuerzan su imagen de marca. Somos un socio que evoluciona con usted, adaptándonos a las nuevas exigencias del mercado y las regulaciones ambientales."
             urlImg="https://sinpar.com.ar/app/uploads/2022/06/DA_L4288.jpg"
         />
         <TwoInfo
-            titleInfo="Soluciones inteligentes para empresas líderes"
-            info="Producimos y comercializamos el más amplio programa de hojas de sierra y cuchillas industriales, herramientas de corte y mecanizado, accesorios para máquinas de cinta sin fin, tornos CNC, centros de mecanizado y servicios de reparación y capacitación."
+            titleInfo="Soluciones de Packaging Inteligentes para Empresas Líderes"
+            info="Diseñamos, producimos y comercializamos una amplia gama de soluciones de packaging de cartón corrugado, desde cajas estándar hasta diseños estructurales complejos y empaques 'smart'. Nuestras soluciones están pensadas para empresas líderes que buscan eficiencia, protección superior y un impacto ambiental reducido. Implementamos tecnologías de vanguardia en procesos de corte y mecanizado, garantizando productos de la más alta calidad y un rendimiento excepcional en la cadena de suministro."
             urlImg="https://sinpar.com.ar/app/uploads/2022/09/DA_L4131-scaled.jpg"
         />
-        <section className="container-process">
-            <div className="process-send">
-                <h3 className="process-title">Nos destacamos por ofrecer soluciones integradas de Packaging con especial énfasis en el servicio al cliente, la permanente innovación, la productividad y la preservación del ambiente.</h3>
-                <img src={ImgProcess} alt="" className="process-img" />
-            </div>
-        </section>
+        <MisionVision />
         <ThreeInfo 
-            titleInfo="Un nuevo ecosistema social y ambiental"
-            descriptionInfo="Desarrollamos procesos cada vez más sustentables trabajando en línea con nuestro Sistema de Gestión"
+            titleInfo="Compromiso con un Ecosistema Social y Ambiental Sostenible"
+            descriptionInfo="En Argenpack, la sostenibilidad es el corazón de nuestra operación. Desarrollamos procesos productivos cada vez más eficientes y respetuosos con el medio ambiente, trabajando en línea con un Sistema de Gestión Integrado que abarca desde la selección de materias primas hasta la entrega final."
             
-            titleInfoOne= "Distinción ARGENPACK"
-            infoOne= "Reconocemos a empresas, pymes y negocios que desarrollan proyectos comprometidos con el triple impacto, la innovación y la adopción de estrategias sustentables."
+            titleInfoOne= "Innovación Sostenible nuestra Distinción"
+            infoOne= "Reconocemos y apoyamos a empresas, PYMES y proyectos que demuestran un compromiso genuino con el triple impacto (económico, social y ambiental), la innovación en sus procesos y la adopción de estrategias de producción y packaging sostenibles."
             
-            titleInfoTwo= "Reporte de Sustentabilidad"
-            infoTwo="Fomentamos prácticas sustentables en sus procesos productivos y compartimos los resultados en nuestro Reporte de Sustentabilidad."
+            titleInfoTwo= "Transparencia y Rendición de Cuentas"
+            infoTwo="Fomentamos activamente prácticas de producción sostenible en todas nuestras operaciones y compartimos nuestros avances y logros a través de nuestro Reporte de Sustentabilidad anual. Este documento detalla nuestro desempeño en indicadores clave, reafirmando nuestro compromiso con la mejora continua y la transparencia."
             
-            titleInfoThree="Pacto global de Naciones Unidas"
-            infoThree="Presentamos el informe de Comunicación de Progreso (CoP) detallando los avances de la empresa sobre lo Principios del Pacto Global."
+            titleInfoThree="Nacidos para la Grandeza"
+            infoThree="En Argenpack, entendemos que la primera impresión tangible que recibe el cliente y es un reflejo directo del valor del producto que lleva dentro. Por eso, para nosotros, la verdadera grandeza se define por una calidad intransigente y una búsqueda constante de mejora en nuestros procesos."
             
             />
             <FormUnete />
-            <BoxMeasures />
         </>
     );
 }

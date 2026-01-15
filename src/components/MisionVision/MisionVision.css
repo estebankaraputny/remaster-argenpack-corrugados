@@ -1,0 +1,17 @@
+.mision-vision-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: var(--space-between) 0;
+    width: var(--ancho-page);
+    margin: auto;
+}
+
+
+@media (max-width: 768px) {
+    .mision-vision-section{
+        padding: 1rem;
+    }   
+}

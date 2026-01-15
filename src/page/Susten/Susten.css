@@ -1,0 +1,20 @@
+.susten-page {
+    padding: 4rem 2rem;
+    background-color: var(--color-light-gray);
+    text-align: center;
+}
+
+.susten-page h1 {
+    font-size: var(--font-size-h1);
+    color: var(--color-secondary);
+    margin-bottom: 2rem;
+}
+
+.counters-container {
+    width: var(--ancho-page);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 3rem;
+    gap: 2rem;
+}

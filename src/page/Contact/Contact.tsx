@@ -1,8 +1,32 @@
+import Carrusel from "../../components/Carrusel/Carrusel";
+import FormContact from "../../components/FormContact/FormContact";
+import TitlePage from "../../components/TitlePage/TitlePage";
+import ImgSliderOner from "../../assets/image/sliderOne.png"
+import ImgSliderTwo from "../../assets/image/sliderTwo.png"
+import ImgSliderThree from "../../assets/image/sliderThree.png"
+import Plantas from "../../components/Plantas/Plantas";
+
 const Contact = () => {
     return (
-        <div>
-            <h1>Contacto</h1>
-        </div>
+            <>
+                <Carrusel
+                    img1={ImgSliderOner}
+                    img2={ImgSliderTwo}
+                    img3={ImgSliderThree}
+                    titlePage="Contacto"
+                    description=""
+                />
+                <TitlePage
+                    title="Contactanos"
+                    description="¿Tiene dudas, sugerencias o le interesa llevar adelante algún proyecto? Contáctenos hoy mismo seleccionando un canal. Estaremos felices de responder a la brevedad."
+                />
+                <FormContact />
+                <TitlePage
+                    title="¿Dónde encontrarnos?"
+                    description="Desde nuestras plantas abastecemos a todo el país."
+                />
+                <Plantas />
+            </>
     );
 }
 

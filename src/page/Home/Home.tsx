@@ -15,25 +15,25 @@ const Home = () => {
             img1={ImgSliderOner}
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
-            titlePage="Soluciones integradas de packaging"
-            description="Soluciones en carton corrugado"
+            titlePage="Somos Argenpack: Vanguardia en Cartón Corrugado"
+            description="Liderando el futuro del embalaje con soluciones sostenibles, inteligentes y personalizadas para la era del e-commerce."
         />
         <TitlePage
-            title="Acerca de Argenpack"
-            description="La evolución y adaptación permanentes, productos de clase mundial, tecnología de punta y equipos de trabajo enfocados al cliente, nos ubica como líderes en soluciones de Packaging. Gracias a nuestro enfoque estratégico de largo plazo que nos permite desarrollar productos de calidad, innovadores y sustentables, brindamos a nuestros clientes las más convenientes alternativas para el empaque, transporte, almacenaje y exhibición de productos."
+            title="Innovación en Packaging de Cartón Corrugado"
+            description="En Argenpack, transformamos el cartón corrugado en soluciones de packaging que impulsan el éxito de nuestros clientes. Combinamos tecnología de punta, un compromiso inquebrantable con la sostenibilidad y un enfoque centrado en el cliente para ofrecer productos que no solo protegen, sino que también potencian la imagen de su marca. Desde el diseño estructural hasta la impresión digital de alta calidad, somos su socio estratégico para el empaque, transporte, almacenaje y exhibición de productos en un mercado en constante evolución."
         />
         <ThreeInfo 
-            titleInfo="Nuestra mirada al futuro"
-            descriptionInfo="Impulsamos el cambio cultural en organizaciones y personas para mejorar la competitividad."
+            titleInfo="Los Pilares de Nuestro Compromiso"
+            descriptionInfo="Nuestra estrategia se basa en tres pilares fundamentales que garantizan la excelencia y la relevancia en la industria del packaging."
             
-            titleInfoOne= "Sistema de Gestión Integrado"
-            infoOne= "Trabajamos con un Sistema Integrado de Gestión que incorpora el cuidado del medio ambiente y el entorno social como parte fundamental de nuestro modelo de negocio."
+            titleInfoOne= "Economía Circular y Sostenibilidad"
+            infoOne= "Elaboramos nuestros productos con un alto porcentaje de material reciclado, promoviendo un ciclo de vida sostenible. Nuestro sistema de gestión ambiental (certificación ISO 14001) asegura la minimización de residuos y la optimización de recursos."
             
-            titleInfoTwo= "Sustentabilidad"
-            infoTwo="Elaboramos reportes de sustentabilidad que dan cuenta de nuestro desempeño económico, social y ambiental."
-            
-            titleInfoThree="Trayectoria"
-            infoThree="Fundada en 1931, SIN PAR se ha posicionado como una de las empresas argentinas referentes en soluciones tecnológicas para procesos de corte y mecanizado."
+            titleInfoTwo= "Tecnología e Innovación Constante"
+            infoTwo="Invertimos en la última tecnología de fabricación y diseño para crear embalajes más ligeros, resistentes y eficientes. Desarrollamos soluciones 'smart packaging' y diseños estructurales avanzados."
+
+            titleInfoThree="Foco en el Cliente y Personalización"
+            infoThree="Entendemos que cada producto es único. Por eso, ofrecemos soluciones de packaging 100% personalizadas. Mediante la impresión digital de vanguardia, convertimos cada caja en una poderosa herramienta de marketing, mejorando la experiencia del consumidor y fortaleciendo la identidad de su marca."
             
             />
             <VideoSection />

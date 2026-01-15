@@ -5,6 +5,7 @@
     position: relative;
     margin-top: 5rem;
     z-index: 10;
+    overflow: hidden;
 }
 
 .content-three-info{
@@ -121,4 +122,28 @@
     height: 100%;
     object-fit: cover;
     backdrop-filter: blur(1rem);
+}
+
+@media (max-width: 768px) {
+    .three-info-row-one{
+        padding: 0;
+    }
+
+    .title-three-info h2 {
+        width: 100%;
+    }
+    .three-info-row-two {
+        grid-template-columns: 1fr;
+    }
+    .three-info-more {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .img-three-one{
+        width: 60%;
+    }
+
+    .img-three-two{
+        width: 60%;
+    }
+    
 }
