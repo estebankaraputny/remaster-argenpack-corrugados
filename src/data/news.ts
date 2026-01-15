@@ -65,7 +65,7 @@ export const newsData: News[] = [
     },
     {
         id: 5,
-        img: "https://www.packaging.com.ar/wp-content/uploads/2021/08/packaging-del-futuro-800x445.jpg",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzGXZFAhAONAsNuRiRLWx1EpXYKLZwfXbAdg&s",
         title: "Innovación en Packaging Sustentable",
         description: "Presentamos nuestra nueva línea de productos 100% reciclables.",
         category: "Sustentabilidad",
@@ -79,7 +79,7 @@ export const newsData: News[] = [
     },
     {
         id: 6,
-        img: "https://www.visiondigital.com.ar/wp-content/uploads/2023/07/argenpack-1.jpg",
+        img: "https://www.argenpack.com/images/frontend/slider21.jpg",
         title: "Ampliamos nuestra planta de producción",
         description: "Inauguramos un nuevo sector en nuestra planta para aumentar la capacidad.",
         category: "Inversiones",
@@ -93,7 +93,7 @@ export const newsData: News[] = [
     },
     {
         id: 7,
-        img: "https://coopar.com.ar/wp-content/uploads/2022/07/22-07-06-NOTA-WEB-PROGRAMA-DE-CAPACITACION-EN-OFICIOS-EN-BERAZATEGUI-2-1024x768.jpg",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKbUGh6ptOqQg50p9FTYxx7zu4ue5J84Ri7A&s",
         title: "Capacitación a nuevos talentos",
         description: "Lanzamos un programa de capacitación para jóvenes profesionales.",
         category: "Social",
@@ -104,7 +104,7 @@ export const newsData: News[] = [
     },
     {
         id: 8,
-        img: "https://i.ytimg.com/vi/L-pCkz2iL8I/maxresdefault.jpg",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF94pmGEBMJL05BfNzjlfZIg3WfJKkWvg1hw&s",
         title: "Certificación ISO 14001",
         description: "Obtuvimos la certificación ISO 14001 de gestión ambiental.",
         category: "Sustentabilidad",
@@ -115,7 +115,7 @@ export const newsData: News[] = [
     },
     {
         id: 9,
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXxI2ijgqekp6pzyW2-sC3B9zFPx-31s6J-Q&s",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT9ZN-u7euBOrN548UvjqPUcYYwjgmUKXIfw&s",
         title: "Alianza estratégica con Pack Group",
         description: "Nos unimos a Pack Group para fortalecer nuestra presencia en la región.",
         category: "Inversiones",
@@ -126,7 +126,7 @@ export const newsData: News[] = [
     },
     {
         id: 10,
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcaAofOBlg1C5erL2ZkL6fe2xG-Q232G0GZQ&s",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWpUtnB6jFVMpPFhwqRHAcG114xbIASzSs0w&s",
         title: "Participación en la Feria del Libro",
         description: "Donamos cajas de cartón para el transporte de libros en la feria.",
         category: "Social",
@@ -137,7 +137,7 @@ export const newsData: News[] = [
     },
     {
         id: 11,
-        img: "https://www.revistabit.cl/wp-content/uploads/2020/06/iStock-1178384934.jpg",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrSgNRq4onMbknOzFAdbThBdswa6jEhnmQA&s",
         title: "Desarrollo de packaging inteligente",
         description: "Estamos investigando el uso de tecnología NFC en nuestros empaques.",
         category: "Innovación",
@@ -148,7 +148,7 @@ export const newsData: News[] = [
     },
     {
         id: 12,
-        img: "https://www.cedol.org.ar/wp-content/uploads/2020/09/Z-Cajas-de-carton-corrugado.jpg",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_SORdfDjIjD2wUu6XqBWwSNrYMHQ9D2kLpg&s",
         title: "Nuevo récord de producción",
         description: "Alcanzamos un nuevo récord de producción mensual en nuestra planta.",
         category: "Inversiones",

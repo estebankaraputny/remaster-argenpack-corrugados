@@ -3,7 +3,7 @@ import ThreeInfo from "../../components/ThreeInfo/ThreeInfo";
 import TitlePage from "../../components/TitlePage/TitlePage";
 import ImgSliderOner from "../../assets/image/sliderOne.png"
 import ImgSliderTwo from "../../assets/image/sliderTwo.png"
-import ImgSliderThree from "../../assets/image/sliderThree.png"
+import ImgSliderThree from "../../assets/image/fabrica1.jpg"
 import VideoSection from "../../components/VideoSection/VideoSection";
 import NewFeature from "../../components/NewFeature/NewFeature";
 
@@ -15,13 +15,14 @@ const Home = () => {
             img1={ImgSliderOner}
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
-            titlePage="Somos Argenpack: Vanguardia en Cartón Corrugado"
-            description="Liderando el futuro del embalaje con soluciones sostenibles, inteligentes y personalizadas para la era del e-commerce."
+            titlePage="Somos Argenpack Vanguardia en Cartón Corrugado"
+            description="Soluciones que impulsan tu negocio."
         />
         <TitlePage
             title="Innovación en Packaging de Cartón Corrugado"
-            description="En Argenpack, transformamos el cartón corrugado en soluciones de packaging que impulsan el éxito de nuestros clientes. Combinamos tecnología de punta, un compromiso inquebrantable con la sostenibilidad y un enfoque centrado en el cliente para ofrecer productos que no solo protegen, sino que también potencian la imagen de su marca. Desde el diseño estructural hasta la impresión digital de alta calidad, somos su socio estratégico para el empaque, transporte, almacenaje y exhibición de productos en un mercado en constante evolución."
-        />
+            description="En Argenpack,  Transformamos cartón en soluciones estratégicas que impulsan su éxito. Con tecnología de punta y compromiso sostenible, diseñamos envases que protegen su producto y potencian su marca, desde el diseño hasta la exhibición."
+        />    
+
         <ThreeInfo 
             titleInfo="Los Pilares de Nuestro Compromiso"
             descriptionInfo="Nuestra estrategia se basa en tres pilares fundamentales que garantizan la excelencia y la relevancia en la industria del packaging."

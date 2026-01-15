@@ -1,11 +1,13 @@
 import Carrusel from "../../components/Carrusel/Carrusel";
 import ThreeInfo from "../../components/ThreeInfo/ThreeInfo";
 import TitlePage from "../../components/TitlePage/TitlePage";
-import ImgSliderOner from "../../assets/image/sliderOne.png"
-import ImgSliderTwo from "../../assets/image/sliderTwo.png"
-import ImgSliderThree from "../../assets/image/sliderThree.png"
+import ImgSliderOner from "../../assets/image/medioambiente1.jpg"
+import ImgSliderTwo from "../../assets/image/carton.jpg"
+import ImgSliderThree from "../../assets/image/fabrica1.jpg"
 import OneInfo from "../../components/OneInfo/OneInfo";
+import OneInfoImg from "../../assets/image/armandocaja.jpg";
 import TwoInfo from "../../components/TwoInfo/TwoInfo";
+import TwoInfoImg from "../../assets/image/carton.jpg"
 import "./about.css";
 import FormUnete from "../../components/FormUnete/FormUnete";
 import MisionVision from "../../components/MisionVision/MisionVision";
@@ -17,22 +19,22 @@ const About = () => {
             img1={ImgSliderOner}
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
-            titlePage="Argenpack: Pioneros en Soluciones de Packaging Sostenible"
+            titlePage="Argenpack, Pioneros en Soluciones de Packaging Sostenible"
             description="Liderando la industria del cartón corrugado con innovación y responsabilidad."
         />
         <TitlePage
             title="Nuestra Historia y Compromiso con el Futuro"
-            description="Somos Argenpack, una empresa argentina con visión global, dedicada a ofrecer soluciones integrales en packaging de cartón corrugado. Desde nuestras modernas instalaciones, impulsamos la innovación, la sostenibilidad y la excelencia en cada producto. Construimos relaciones sólidas y duraderas con clientes y proveedores, con un firme compromiso con el bienestar de las personas y la protección del medio ambiente. Nuestra red de producción abastece a una vasta clientela, brindando envases corrugados que cumplen con los más altos estándares de calidad y eficiencia."
+            description="Somos Argenpack, Empresa argentina con visión global, líder en soluciones integrales de cartón corrugado. Impulsamos la innovación y la sostenibilidad en cada envase, construyendo alianzas duraderas basadas en la excelencia, la calidad certificada y el compromiso ambiental."
         />
         <OneInfo
             titleInfo="Un Aliado Estratégico del Embalaje"
-            info="En Argenpack, nos dedicamos a comprender las dinámicas cambiantes de la industria para anticipar y satisfacer las necesidades de embalaje de nuestros clientes. Nuestro compromiso se extiende a cada eslabón de la cadena productiva, asegurando soluciones que no solo protegen sus productos, sino que también optimizan su logística y refuerzan su imagen de marca. Somos un socio que evoluciona con usted, adaptándonos a las nuevas exigencias del mercado y las regulaciones ambientales."
-            urlImg="https://sinpar.com.ar/app/uploads/2022/06/DA_L4288.jpg"
+            info="Soluciones integrales de embalaje que protegen su producto y optimizan su logística. Nos adaptamos a las dinámicas del mercado para ser el socio estratégico que su empresa necesita."
+            urlImg={OneInfoImg}
         />
         <TwoInfo
             titleInfo="Soluciones de Packaging Inteligentes para Empresas Líderes"
-            info="Diseñamos, producimos y comercializamos una amplia gama de soluciones de packaging de cartón corrugado, desde cajas estándar hasta diseños estructurales complejos y empaques 'smart'. Nuestras soluciones están pensadas para empresas líderes que buscan eficiencia, protección superior y un impacto ambiental reducido. Implementamos tecnologías de vanguardia en procesos de corte y mecanizado, garantizando productos de la más alta calidad y un rendimiento excepcional en la cadena de suministro."
-            urlImg="https://sinpar.com.ar/app/uploads/2022/09/DA_L4131-scaled.jpg"
+            info="Diseñamos y fabricamos soluciones de packaging de alto rendimiento, desde cajas estándar hasta estructuras 'smart'. Utilizamos tecnología de vanguardia para garantizar máxima protección, eficiencia logística y sostenibilidad para empresas líderes."
+            urlImg={TwoInfoImg}
         />
         <MisionVision />
         <ThreeInfo 

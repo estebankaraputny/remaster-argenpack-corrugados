@@ -20,10 +20,13 @@
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--color-primary);
+    width: 60%;
 }
 
 .content-title-page p {
     font-size: 1rem;
     font-weight: 400;
     color: var(--color-text-light);
+     width: 60%;
+     line-height: 2rem;
 }

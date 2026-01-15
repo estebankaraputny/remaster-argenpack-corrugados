@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import ImgSliderOner from "../../assets/image/sliderOne.png"
-import ImgSliderTwo from "../../assets/image/sliderTwo.png"
-import ImgSliderThree from "../../assets/image/sliderThree.png"
+import ImgSliderOner from "../../assets/image/pilacartones.png"
+import ImgSliderTwo from "../../assets/image/cajasproduccion.png"
+import ImgSliderThree from "../../assets/image/materialescarton.jpg"
 import Carrusel from "../../components/Carrusel/Carrusel";
 import CategoryFilter from "../../components/ProductSection/CategoryFilter";
 import SearchBar from "../../components/ProductSection/SearchBar";
@@ -77,7 +77,7 @@ const Product = () => {
             img1={ImgSliderOner}
             img2={ImgSliderTwo}
             img3={ImgSliderThree}
-            titlePage="Nuestros Productos"
+            titlePage="Productos elegidos por nuestros clientes"
             description="Explorá nuestro catálogo de soluciones en cartón corrugado."
             />
             <div className="container-products-and-filter">

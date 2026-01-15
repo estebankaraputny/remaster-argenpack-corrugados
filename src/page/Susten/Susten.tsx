@@ -1,15 +1,16 @@
 import Carrusel from '../../components/Carrusel/Carrusel';
 import CounterStats from '../../components/CounterStats/CounterStats';
 import TitlePage from "../../components/TitlePage/TitlePage";
-import ImgSliderOner from "../../assets/image/sliderOne.png"
-import ImgSliderTwo from "../../assets/image/sliderTwo.png"
-import ImgSliderThree from "../../assets/image/sliderThree.png"
+import ImgSliderOner from "../../assets/image/aceite.jpg"
+import ImgSliderTwo from "../../assets/image/pexels-elevate-1267332.jpg"
+import ImgSliderThree from "../../assets/image/pilacartones.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRecycle, faBoxesStacked, faArrowTrendUp, faLeaf} from '@fortawesome/free-solid-svg-icons';
 import './Susten.css';
 import Plantas from '../../components/Plantas/Plantas';
 import NewFeature from '../../components/NewFeature/NewFeature';
 import OneInfo from '../../components/OneInfo/OneInfo';
+import OneInfoImg from "../../assets/image/medioambiente2.jpg"
 
 const Sustentabilidad = () => {
     return (
@@ -28,8 +29,8 @@ const Sustentabilidad = () => {
         />
         <OneInfo
             titleInfo="Un Compromiso Integral con el Medio Ambiente y la Sociedad"
-            info="Como actor clave en la cadena de valor del packaging, asumimos un fuerte compromiso con el desarrollo sostenible. Estamos en constante vigilancia de las tendencias y regulaciones ambientales para asegurar que nuestras prácticas y productos contribuyan positivamente a la salud del planeta y al bienestar de la sociedad. Esto incluye la optimización de recursos, la reducción de emisiones y el fomento de una cultura de respeto ambiental en toda nuestra operación y con nuestros colaboradores."
-            urlImg="https://sinpar.com.ar/app/uploads/2022/06/DA_L4288.jpg"
+            info="Compromiso sostenible en cada etapa. Asumimos un rol activo en la protección ambiental, alineando nuestras operaciones con las regulaciones más exigentes. Minimizamos nuestra huella ecológica mediante la optimización de recursos y la reducción de emisiones, fomentando una cultura de responsabilidad que agrega valor a su cadena de suministro."
+            urlImg={OneInfoImg}
         />
             <div className="susten-page">
                 
