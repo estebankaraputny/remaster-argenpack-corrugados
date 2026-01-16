@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Layout from './components/Layout/Layout';
 import Home from "./page/Home/Home";
@@ -15,11 +15,20 @@ import 'aos/dist/aos.css';
 
 
 function App() {
+
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+      AOS.refresh(); 
+  }, [pathname]);
+
   useEffect(() => {
         AOS.init({
         duration: 1000,
-        once: true,     // Si true, la animación solo ocurre una vez al bajar
-        offset: 50,     // Desplazamiento (en px) desde el cual se activa
+        once: true,     
+        offset: 50,    
         });
     }, []);
 

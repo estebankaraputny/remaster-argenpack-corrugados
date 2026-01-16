@@ -30,3 +30,17 @@
      width: 60%;
      line-height: 2rem;
 }
+
+@media (max-width: 780px) {
+    .section-title-page{
+        padding: 1rem;
+    }
+
+    .content-title-page h2{
+        width: var(--ancho-page-mobile);
+    }
+
+    .content-title-page p{
+        width: var(--ancho-page-mobile);
+    }
+}
