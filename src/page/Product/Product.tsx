@@ -16,15 +16,14 @@ import FormContact from "../../components/FormContact/FormContact";
 
 // Usamos ProductType en lugar de Product
 const allProducts: ProductType[] = [
-    { id: 1, name: "Caja de Cartón Simple", category: "Cajas", image: "https://www.argenpack.com/files/b0adde31c4d1b033db1401c2b21c38b2.png" },
-    { id: 2, name: "Caja de Cartón Doble", category: "Cajas", image: "https://www.argenpack.com/files/c59387f044365b96558c45c1e4ae39e9.png" },
-    { id: 3, name: "Separador de Cartón", category: "Accesorios", image: "https://www.argenpack.com/files/c59387f044365b96558c45c1e4ae39e9.png" },
-    { id: 4, name: "Plancha de Cartón", category: "Planchas", image: "https://www.argenpack.com/files/2e47487961d23b7c820d553c5018f9d4.png" },
-    { id: 5, name: "Caja para Archivo", category: "Cajas", image: "https://www.argenpack.com/files/4a5ebe27772bcb14f7944ed0b5f1e1b5.png" },
-    { id: 6, name: "Cinta de Embalaje", category: "Accesorios", image: "https://www.argenpack.com/files/a9d209dbcf9c3586ede0f894a38343c4.png" },
-    { id: 7, name: "Caja Agrícola", category: "Cajas", image: "https://www.argenpack.com/files/9bcb61dea1586a476b3777f57dd9191e.png" },
-    { id: 8, name: "Plancha Doble-Doble", category: "Planchas", image: "https://www.argenpack.com/files/7c6ef7d4c1bf81fb27d4607acf0b8974.png" },
-];
+    { id: 1, name: "Caja de Cartón Full Color", category: "Alta Gráfica", image: "https://www.argenpack.com/files/b0adde31c4d1b033db1401c2b21c38b2.png" },
+    { id: 2, name: "Caja de Autopartes", category: "Grandes Contenedores y Envases Especiales", image: "https://www.argenpack.com/files/c59387f044365b96558c45c1e4ae39e9.png" },
+    { id: 3, name: "Caja Transporte Delicado", category: "Grandes Contenedores y Envases Especiales", image: "https://www.argenpack.com/files/1496e1036bf05faa1c3c313d008785ed.png" },
+    { id: 4, name: "Caja Transporte Informatico", category: "Envases Industriales", image: "https://www.argenpack.com/files/2e47487961d23b7c820d553c5018f9d4.png" },
+    { id: 5, name: "Caja Transporte Informatico", category: "Envases Industriales", image: "https://www.argenpack.com/files/4a5ebe27772bcb14f7944ed0b5f1e1b5.png" },
+    { id: 6, name: "Caja Transporte Informatico", category: "Envases Industriales", image: "https://www.argenpack.com/files/a9d209dbcf9c3586ede0f894a38343c4.png" },
+    { id: 7, name: "Caja Decodificardor", category: "Envases Industriales", image: "https://www.argenpack.com/files/9bcb61dea1586a476b3777f57dd9191e.png" }];
+
 
 const allCategories = ["Todas", ...new Set(allProducts.map(p => p.category))];
 
